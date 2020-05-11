@@ -1,0 +1,137 @@
+*
+{
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: arial;
+	text-decoration: none;
+	list-style: none;
+}
+
+body
+{
+	background-color: black;
+}
+
+body:before
+{
+	background: url(../imagen/puntos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-position: center;
+    object-fit: cover;
+    content: "";
+	width: 50%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 120px;
+}
+
+header
+{
+	position: relative;
+	width: 100%;
+	padding-bottom: 2em;
+}
+
+nav
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 1.5em 0;
+	width: 85%;
+}
+
+nav img
+{
+	width: 120px;
+}
+
+nav div
+{
+	display: flex;
+	align-items: center;
+}
+
+nav div img
+{
+	width: 20px;
+}
+
+section
+{
+	position: relative;
+	width: 100%
+}
+
+article
+{
+	justify-content: space-between;
+	display: flex;
+	margin: 0 auto;
+	width: 85%;
+}
+
+.uno
+{
+	width: 50%;
+}
+
+.dos
+{
+	width: 35%;
+}
+
+a{
+	color: white;
+	font-size: 22px;
+	padding-left: .5em;
+}
+
+.uno p
+{
+	color: white;
+	font-size: 28px;
+	padding-bottom: 2em;
+}
+
+.uno img
+{
+	width: 80%;
+}
+
+.dos img
+{
+	width: 100%;
+}
+
+.dos ol
+{
+	width: 100%;
+	text-align: right;
+	padding-top: 2em;
+}
+
+.dos li
+{
+	color: white;
+	cursor: pointer;
+}
+
+.diferente
+{
+	font-weight: bold;
+	padding-top: 1em;
+}
+
+.dos li:hover
+{
+	color: orange;
+}
+
+a:hover
+{
+	color: orange;
+}
