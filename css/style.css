@@ -18,24 +18,24 @@ body:before
 	background: url(../imagen/puntos.png);
     background-repeat: no-repeat;
     background-size: cover;
+    bottom: 0;
+    content: "";
     object-position: center;
     object-fit: cover;
-    content: "";
-	width: 50%;
     position: absolute;
-    top: 0;
-    bottom: 0;
     right: 120px;
+    top: 0;
+	width: 50%;
 }
 
-header
+.header
 {
+	padding-bottom: 2em;
 	position: relative;
 	width: 100%;
-	padding-bottom: 2em;
 }
 
-nav
+.header__content
 {
 	display: flex;
 	justify-content: space-between;
@@ -44,94 +44,95 @@ nav
 	width: 85%;
 }
 
-nav img
+.header__content--logo
 {
 	width: 120px;
 }
 
-nav div
+.header__content__menu
 {
-	display: flex;
 	align-items: center;
+	display: flex;
 }
 
-nav div img
+.header__content--ico
 {
 	width: 20px;
 }
 
-section
-{
-	position: relative;
-	width: 100%
-}
-
-article
-{
-	justify-content: space-between;
-	display: flex;
-	margin: 0 auto;
-	width: 85%;
-}
-
-.uno
-{
-	width: 50%;
-}
-
-.dos
-{
-	width: 35%;
-}
-
-a{
+.header__content--a{
 	color: white;
 	font-size: 22px;
 	padding-left: .5em;
 }
 
-.uno p
+
+.info
+{
+	position: relative;
+	width: 100%
+}
+
+.info__content
+{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 85%;
+}
+
+.info__left
+{
+	width: 50%;
+}
+
+.info__right
+{
+	width: 35%;
+}
+
+.info__left--p
 {
 	color: white;
 	font-size: 28px;
 	padding-bottom: 2em;
 }
 
-.uno img
+.info__left--img
 {
 	width: 80%;
 }
 
-.dos img
+.info__right--img
 {
 	width: 100%;
 }
 
-.dos ol
+.info__right__items
 {
-	width: 100%;
-	text-align: right;
 	padding-top: 2em;
+	text-align: right;
+	width: 100%;
 }
 
-.dos li
+.info__right__items--item
 {
 	color: white;
 	cursor: pointer;
 }
 
-.diferente
+.info__right__items--sem
 {
 	font-weight: bold;
 	padding-top: 1em;
 }
 
-.dos li:hover
+.info__right__items--item:hover
 {
 	color: orange;
 }
 
-a:hover
+.header__content--a:hover
 {
 	color: orange;
 }
